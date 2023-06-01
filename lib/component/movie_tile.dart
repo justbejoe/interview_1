@@ -5,7 +5,7 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 class MovieTile extends StatelessWidget {
   final String name;
   final String director;
-  void Function(BuildContext)? deleteTapped;
+  final void Function(BuildContext)? deleteTapped;
 
   // XFile? image;
 
